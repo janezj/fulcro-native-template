@@ -4,10 +4,11 @@
     "slug": "ucv-attendance",
     "privacy": "unlisted",
     "entryPoint": "./app/index.js",
-    "sdkVersion": "35.0.0",
+    "sdkVersion": "46.0.0",
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "web"
     ],
     "scheme": "ucvattendance",
     "version": "1.0.0",
@@ -28,6 +29,15 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "description": "",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
   }
 }
