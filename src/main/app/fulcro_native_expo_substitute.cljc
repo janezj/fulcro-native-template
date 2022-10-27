@@ -2,7 +2,7 @@
   (:require
    #?@(:cljs [["expo" :as expo]
               ["create-react-class" :as crc]
-              ["react-native-paper" :as rnp]])
+              #_["react-native-paper" :as rnp]])
    [taoensso.timbre :as log]
    [com.fulcrologic.fulcro-native.expo-assets :as assets]
    [com.fulcrologic.fulcro.application :as app]
