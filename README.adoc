@@ -62,6 +62,5 @@ There is a demo login account of "user"/"letmein".
 
 == Usage on ios
 
-Update `shadow-cljs.edn` To activate :dev-i.
-Rename :dev -> :dev-a, :dev-i -> :dev
-
+Update `shadow-cljs.edn` to switch from android to ios.
+Rename `:dev -> :dev-a`, `:dev-i -> :dev`
